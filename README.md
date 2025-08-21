@@ -1,5 +1,4 @@
 # python-number-guessing-game
-Practicing randomization in a playful style
 
 AI practically became my personal coach at this point, coded another game, this time a randomized number guesser.
 
