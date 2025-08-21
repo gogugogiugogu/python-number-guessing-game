@@ -28,7 +28,7 @@ while attempts > 0:
     guess = int(guess)  
 
     if guess == secret_number:
-        print(f"🎉 Correct! The number was {secret_number}. You win!")
+        print(f"Correct! The number was {secret_number}. You win!")
         break
     elif guess < secret_number:
         print("Too low.")
@@ -38,4 +38,4 @@ while attempts > 0:
     attempts -= 1
 
 if attempts == 0:
-    print(f"😢 Out of attempts! The number was {secret_number}. Better luck next time!")
+    print(f"Out of attempts! The number was {secret_number}. Better luck next time!")
